@@ -1,7 +1,7 @@
 package edu.nju.pasalab.marlin.matrix
 
 import breeze.linalg.{DenseMatrix => BDM}
-import org.apache.spark.Logging
+import org.apache.spark.internal.Logging
 
 class SubMatrix() extends Serializable with Logging{
 

@@ -21,7 +21,7 @@ import org.apache.log4j.{Logger, Level}
 import org.apache.spark._
 import org.apache.spark.SparkContext._
 import org.apache.spark.rdd.RDD
-import org.apache.spark.Logging
+import org.apache.spark.internal.Logging
 import org.apache.spark.HashPartitioner
 import org.apache.spark.storage.StorageLevel
 

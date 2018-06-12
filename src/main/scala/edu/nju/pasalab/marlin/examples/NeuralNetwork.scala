@@ -11,7 +11,8 @@ import edu.nju.pasalab.marlin.rdd.MatrixMultPartitioner
 import edu.nju.pasalab.marlin.utils.MTUtils
 import org.apache.hadoop.mapreduce.lib.partition.HashPartitioner
 import org.apache.spark.rdd.RDD
-import org.apache.spark.{Partitioner, Logging, SparkConf, SparkContext}
+import org.apache.spark.internal.Logging
+import org.apache.spark.{Partitioner, SparkConf, SparkContext}
 
 import scala.collection.mutable
 import scala.collection.mutable.HashSet

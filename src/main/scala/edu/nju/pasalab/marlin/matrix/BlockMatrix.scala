@@ -7,8 +7,8 @@ import scala.{specialized => spec}
 import edu.nju.pasalab.marlin.rdd.MatrixMultPartitioner
 import org.apache.hadoop.io.{Text, NullWritable}
 import org.apache.hadoop.mapred.TextOutputFormat
-
-import org.apache.spark.{Partitioner, Logging, HashPartitioner}
+import org.apache.spark.internal.Logging
+import org.apache.spark.{Partitioner, HashPartitioner}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.SparkContext._
 

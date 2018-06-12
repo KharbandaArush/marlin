@@ -1,7 +1,8 @@
 package edu.nju.pasalab.marlin.rdd
 
 import edu.nju.pasalab.marlin.matrix.BlockID
-import org.apache.spark.{Logging, Partitioner}
+import org.apache.spark.internal.Logging
+import org.apache.spark.Partitioner
 
 private[marlin] class MatrixMultPartitioner(
     val mSplitNum: Int,

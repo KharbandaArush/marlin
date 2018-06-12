@@ -5,7 +5,8 @@ import scala.{specialized=>spec}
 import breeze.linalg.{DenseVector => BDV, DenseMatrix => BDM, Transpose}
 
 import org.apache.spark.rdd.RDD
-import org.apache.spark.{SparkContext, Logging}
+import org.apache.spark.SparkContext
+import org.apache.spark.internal.Logging
 
 /**
  * a distributed view of long large vector, currently
